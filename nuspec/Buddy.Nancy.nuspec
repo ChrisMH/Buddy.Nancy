@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+
+<package>
+    <metadata>
+        <id>Buddy.Nancy</id>
+        <version>$version$</version>
+        <title>Buddy</title>
+        <authors>Chris Hogan</authors>
+        <owners>Chris Hogan</owners>
+        <licenseUrl>http://www.opensource.org/licenses/mit-license.php</licenseUrl>
+        <projectUrl>https://github.com/ChrisMH/Buddy.Nancy</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Nancy utility classes</description>
+        <copyright>Copyright 2011</copyright>
+        <tags>buddy nancy</tags>
+        <dependencies>
+            <dependency id="Nancy" version="1.4.3" />
+            <dependency id="Nancy.Serialization.JsonNet" version="1.4.1" />
+            <dependency id="Newtonsoft.Json" version="9.0.1" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="..\Buddy.Nancy40\bin\Release\Buddy.Nancy.dll" target="lib\net40" />
+        <file src="..\Buddy.Nancy40\bin\Release\Buddy.Nancy.pdb" target="lib\net40" />
+        <file src="..\Buddy.Nancy45\bin\Release\Buddy.Nancy.dll" target="lib\net45" />
+        <file src="..\Buddy.Nancy45\bin\Release\Buddy.Nancy.pdb" target="lib\net45" />
+        <file src="..\Buddy.Nancy451\bin\Release\Buddy.Nancy.dll" target="lib\net451" />
+        <file src="..\Buddy.Nancy451\bin\Release\Buddy.Nancy.pdb" target="lib\net451" />
+        <file src="..\Buddy.Nancy452\bin\Release\Buddy.Nancy.dll" target="lib\net452" />
+        <file src="..\Buddy.Nancy452\bin\Release\Buddy.Nancy.pdb" target="lib\net452" />
+        <file src="..\Buddy.Nancy46\bin\Release\Buddy.Nancy.dll" target="lib\net46" />
+        <file src="..\Buddy.Nancy46\bin\Release\Buddy.Nancy.pdb" target="lib\net46" />
+        <file src="..\Buddy.Nancy461\bin\Release\Buddy.Nancy.dll" target="lib\net461" />
+        <file src="..\Buddy.Nancy461\bin\Release\Buddy.Nancy.pdb" target="lib\net461" />
+    </files>
+</package>
