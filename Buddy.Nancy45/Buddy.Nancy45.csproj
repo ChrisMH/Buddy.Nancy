@@ -191,14 +191,7 @@
     <Compile Include="..\SharedAssemblyInfo.cs">
       <Link>Properties\SharedAssemblyInfo.cs</Link>
     </Compile>
-    <Compile Include="Page\LinkBuilder.cs" />
-    <Compile Include="Page\LinkDef.cs" />
-    <Compile Include="Page\LinkRelType.cs" />
-    <Compile Include="Page\LinkType.cs" />
     <Compile Include="Page\PageConfig.cs" />
-    <Compile Include="Page\ScriptBuilder.cs" />
-    <Compile Include="Page\ScriptDef.cs" />
-    <Compile Include="Page\ScriptType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Serialization\CustomJsonSerializer.cs" />
   </ItemGroup>
