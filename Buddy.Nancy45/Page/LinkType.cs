@@ -8,6 +8,9 @@ namespace Buddy.Nancy.Page
         None,
 
         [Description("text/css")]
-        Css
+        Css,
+
+        [Description("image/icon")]
+        Icon
     }
 }

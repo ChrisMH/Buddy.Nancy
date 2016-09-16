@@ -85,6 +85,7 @@ namespace Buddy.Nancy.Test.Page
         {
             var linkBuilder = new LinkBuilder
             {
+                new LinkDef { Href = "img/icon.png", Type = LinkType.Icon },
                 new LinkDef(),
                 new LinkDef { Href="../css/test.css" },
                 new LinkDef { Href="http://localhost/test.css", Type = LinkType.Css },
@@ -94,7 +95,8 @@ namespace Buddy.Nancy.Test.Page
 
             var html = linkBuilder.Html;
 
-            var expected = "<link/>\r\n";
+            var expected = "<link href=\"img/icon.png\" type=\"image/icon\"/>\r\n";
+            expected += "<link/>\r\n";
             expected += "<link href=\"../css/test.css\"/>\r\n";
             expected += "<link href=\"http://localhost/test.css\" type=\"text/css\"/>\r\n";
             expected += "<link href=\"https://cdn.net/test/test.css\" rel=\"stylesheet\"/>\r\n";
