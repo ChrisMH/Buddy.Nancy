@@ -61,18 +61,21 @@
     <Compile Include="..\SharedAssemblyInfo.cs">
       <Link>Properties\SharedAssemblyInfo.cs</Link>
     </Compile>
+    <Compile Include="Page\ScriptBuilderTest.cs" />
+    <Compile Include="Page\LinkBuilderTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Buddy.Nancy45\Buddy.Nancy45.csproj">
       <Project>{56650c3c-8bfb-4115-89d9-a4bcf5ba1a65}</Project>
-      <Name>Buddy45</Name>
+      <Name>Buddy.Nancy45</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

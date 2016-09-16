@@ -1,18 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Text;
+using Buddy.Enum;
 
 namespace Buddy.Nancy.Page
 {
-    
-    public class ScriptDef
-    {
-        public string Src { get; set; }
-
-        public string Type { get; set; }
-
-        public string Body { get; set; }
-    }
-
     public class ScriptBuilder : List<ScriptDef>
     {
         public ScriptBuilder()
@@ -35,8 +26,8 @@ namespace Buddy.Nancy.Page
                     var strScript = new StringBuilder("<script");
                     if (!string.IsNullOrWhiteSpace(script.Src))
                         strScript.AppendFormat(@" src=""{0}""", script.Src);
-                    if (!string.IsNullOrWhiteSpace(script.Type))
-                        strScript.AppendFormat(@" type=""{0}""", script.Type);
+                    if (script.Type != ScriptType.None)
+                        strScript.AppendFormat(@" type=""{0}""", script.Type.GetDescription());
                     strScript.AppendFormat(">{0}</script>", script.Body);
 
                     strScriptBlock.AppendLine(strScript.ToString());

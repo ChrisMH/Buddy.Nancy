@@ -1,18 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Text;
+using Buddy.Enum;
 
 namespace Buddy.Nancy.Page
 {
-    
-    public class LinkDef
-    {
-        public string Rel { get; set; }
-
-        public string Type { get; set; }
-
-        public string Href { get; set; }
-    }
-
     public class LinkBuilder : List<LinkDef>
     {
         public LinkBuilder()
@@ -35,10 +26,10 @@ namespace Buddy.Nancy.Page
                     var strLink = new StringBuilder("<link");
                     if (!string.IsNullOrWhiteSpace(link.Href))
                         strLink.AppendFormat(@" href=""{0}""", link.Href);
-                    if (!string.IsNullOrWhiteSpace(link.Type))
-                        strLink.AppendFormat(@" type=""{0}""", link.Type);
-                    if (!string.IsNullOrWhiteSpace(link.Rel))
-                        strLink.AppendFormat(@" rel=""{0}""", link.Rel);
+                    if (link.Type != LinkType.None)
+                        strLink.AppendFormat(@" type=""{0}""", link.Type.GetDescription());
+                    if (link.Rel != LinkRelType.None)
+                        strLink.AppendFormat(@" rel=""{0}""", link.Rel.GetDescription());
                     strLink.Append("/>");
 
                     strLinkBlock.AppendLine(strLink.ToString());
