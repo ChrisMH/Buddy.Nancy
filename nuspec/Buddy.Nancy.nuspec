@@ -4,7 +4,7 @@
     <metadata>
         <id>Buddy.Nancy</id>
         <version>$version$</version>
-        <title>Buddy</title>
+        <title>Buddy.Nancy</title>
         <authors>Chris Hogan</authors>
         <owners>Chris Hogan</owners>
         <licenseUrl>http://www.opensource.org/licenses/mit-license.php</licenseUrl>
@@ -14,10 +14,10 @@
         <copyright>Copyright 2011</copyright>
         <tags>buddy nancy</tags>
         <dependencies>
-            <dependency id="Buddy" version="1.1.0" />
-            <dependency id="Nancy" version="1.4.3" />
-            <dependency id="Nancy.Serialization.JsonNet" version="1.4.1" />
-            <dependency id="Newtonsoft.Json" version="9.0.1" />
+            <dependency id="Buddy" version="1.1" />
+            <dependency id="Nancy" version="1.4" />
+            <dependency id="Nancy.Serialization.JsonNet" version="1.4" />
+            <dependency id="Newtonsoft.Json" version="9.0" />
         </dependencies>
     </metadata>
     <files>
