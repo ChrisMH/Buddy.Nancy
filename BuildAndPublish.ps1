@@ -26,7 +26,6 @@ $ErrorActionPreference = "Stop"
 $solution = "Buddy.Nancy.sln"         #relative to $srcRoot
 
 [string[]] $projects =          #relative to $srcRoot
-  "Buddy.Nancy40\Buddy.Nancy40.csproj", 
   "Buddy.Nancy45\Buddy.Nancy45.csproj", 
   "Buddy.Nancy451\Buddy.Nancy451.csproj",  
   "Buddy.Nancy452\Buddy.Nancy452.csproj",  

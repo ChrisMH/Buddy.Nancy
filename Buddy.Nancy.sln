@@ -12,8 +12,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution", "Solution", "{68
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buddy.Nancy45", "Buddy.Nancy45\Buddy.Nancy45.csproj", "{56650C3C-8BFB-4115-89D9-A4BCF5BA1A65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buddy.Nancy40", "Buddy.Nancy40\Buddy.Nancy40.csproj", "{05FEF90C-30D4-4A7E-B00F-79DF6C8610A5}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buddy.Nancy46", "Buddy.Nancy46\Buddy.Nancy46.csproj", "{ADB79F16-7CD5-4208-9F8F-690C4D0002D8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buddy.Nancy451", "Buddy.Nancy451\Buddy.Nancy451.csproj", "{593D7069-99B8-427A-8904-67DDD9B51847}"
@@ -61,28 +59,6 @@ Global
 		{56650C3C-8BFB-4115-89D9-A4BCF5BA1A65}.WaterOutDebug|Any CPU.Build.0 = WaterOutDebug|Any CPU
 		{56650C3C-8BFB-4115-89D9-A4BCF5BA1A65}.WaterOutRelease|Any CPU.ActiveCfg = WaterOutRelease|Any CPU
 		{56650C3C-8BFB-4115-89D9-A4BCF5BA1A65}.WaterOutRelease|Any CPU.Build.0 = WaterOutRelease|Any CPU
-		{05FEF90C-30D4-4A7E-B00F-79DF6C8610A5}.ClientDebug|Any CPU.ActiveCfg = ClientDebug|Any CPU
-		{05FEF90C-30D4-4A7E-B00F-79DF6C8610A5}.ClientDebug|Any CPU.Build.0 = ClientDebug|Any CPU
-		{05FEF90C-30D4-4A7E-B00F-79DF6C8610A5}.ClientRelease|Any CPU.ActiveCfg = ClientRelease|Any CPU
-		{05FEF90C-30D4-4A7E-B00F-79DF6C8610A5}.ClientRelease|Any CPU.Build.0 = ClientRelease|Any CPU
-		{05FEF90C-30D4-4A7E-B00F-79DF6C8610A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{05FEF90C-30D4-4A7E-B00F-79DF6C8610A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{05FEF90C-30D4-4A7E-B00F-79DF6C8610A5}.DebugSL5|Any CPU.ActiveCfg = DebugSL5|Any CPU
-		{05FEF90C-30D4-4A7E-B00F-79DF6C8610A5}.DebugSL5|Any CPU.Build.0 = DebugSL5|Any CPU
-		{05FEF90C-30D4-4A7E-B00F-79DF6C8610A5}.LogikosDebug|Any CPU.ActiveCfg = LogikosDebug|Any CPU
-		{05FEF90C-30D4-4A7E-B00F-79DF6C8610A5}.LogikosDebug|Any CPU.Build.0 = LogikosDebug|Any CPU
-		{05FEF90C-30D4-4A7E-B00F-79DF6C8610A5}.LogikosRelease|Any CPU.ActiveCfg = LogikosRelease|Any CPU
-		{05FEF90C-30D4-4A7E-B00F-79DF6C8610A5}.LogikosRelease|Any CPU.Build.0 = LogikosRelease|Any CPU
-		{05FEF90C-30D4-4A7E-B00F-79DF6C8610A5}.ProtechsDebug|Any CPU.ActiveCfg = ProtechsDebug|Any CPU
-		{05FEF90C-30D4-4A7E-B00F-79DF6C8610A5}.ProtechsDebug|Any CPU.Build.0 = ProtechsDebug|Any CPU
-		{05FEF90C-30D4-4A7E-B00F-79DF6C8610A5}.ProtechsRelease|Any CPU.ActiveCfg = ProtechsRelease|Any CPU
-		{05FEF90C-30D4-4A7E-B00F-79DF6C8610A5}.ProtechsRelease|Any CPU.Build.0 = ProtechsRelease|Any CPU
-		{05FEF90C-30D4-4A7E-B00F-79DF6C8610A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{05FEF90C-30D4-4A7E-B00F-79DF6C8610A5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{05FEF90C-30D4-4A7E-B00F-79DF6C8610A5}.WaterOutDebug|Any CPU.ActiveCfg = WaterOutDebug|Any CPU
-		{05FEF90C-30D4-4A7E-B00F-79DF6C8610A5}.WaterOutDebug|Any CPU.Build.0 = WaterOutDebug|Any CPU
-		{05FEF90C-30D4-4A7E-B00F-79DF6C8610A5}.WaterOutRelease|Any CPU.ActiveCfg = WaterOutRelease|Any CPU
-		{05FEF90C-30D4-4A7E-B00F-79DF6C8610A5}.WaterOutRelease|Any CPU.Build.0 = WaterOutRelease|Any CPU
 		{ADB79F16-7CD5-4208-9F8F-690C4D0002D8}.ClientDebug|Any CPU.ActiveCfg = ClientDebug|Any CPU
 		{ADB79F16-7CD5-4208-9F8F-690C4D0002D8}.ClientDebug|Any CPU.Build.0 = ClientDebug|Any CPU
 		{ADB79F16-7CD5-4208-9F8F-690C4D0002D8}.ClientRelease|Any CPU.ActiveCfg = ClientRelease|Any CPU

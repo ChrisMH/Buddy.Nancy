@@ -14,15 +14,13 @@
         <copyright>Copyright 2011</copyright>
         <tags>buddy nancy</tags>
         <dependencies>
-            <dependency id="Buddy" version="1.0.4" />
+            <dependency id="Buddy" version="1.1.0" />
             <dependency id="Nancy" version="1.4.3" />
             <dependency id="Nancy.Serialization.JsonNet" version="1.4.1" />
             <dependency id="Newtonsoft.Json" version="9.0.1" />
         </dependencies>
     </metadata>
     <files>
-        <file src="..\Buddy.Nancy40\bin\Release\Buddy.Nancy.dll" target="lib\net40" />
-        <file src="..\Buddy.Nancy40\bin\Release\Buddy.Nancy.pdb" target="lib\net40" />
         <file src="..\Buddy.Nancy45\bin\Release\Buddy.Nancy.dll" target="lib\net45" />
         <file src="..\Buddy.Nancy45\bin\Release\Buddy.Nancy.pdb" target="lib\net45" />
         <file src="..\Buddy.Nancy451\bin\Release\Buddy.Nancy.dll" target="lib\net451" />
