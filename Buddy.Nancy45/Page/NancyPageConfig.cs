@@ -15,8 +15,8 @@ namespace Buddy.Nancy.Page
     {
         private static readonly Regex UrlNoPathRegex = new Regex(@"^(http://|https://)[\w\.\:]+");
 
-        public NancyPageConfig(NancyContext context, Assembly versionAssembly, bool debug)
-            : base("", "", versionAssembly, debug)
+        public NancyPageConfig(NancyContext context, Assembly versionAssembly)
+            : base("", "", versionAssembly)
         {
             var originUrl = UrlNoPathRegex.Match(context.Request.Url.ToString()).Value;
 
