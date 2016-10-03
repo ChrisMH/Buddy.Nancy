@@ -150,8 +150,8 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Buddy, Version=1.4.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Buddy.1.4.1\lib\net451\Buddy.dll</HintPath>
+    <Reference Include="Buddy, Version=1.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Buddy.1.5.0\lib\net451\Buddy.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Nancy, Version=1.4.2.0, Culture=neutral, processorArchitecture=MSIL">
@@ -191,9 +191,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\Buddy.Nancy45\Page\NancyPageConfig.cs">
-      <Link>Page\NancyPageConfig.cs</Link>
-    </Compile>
     <Compile Include="..\SharedAssemblyInfo.cs">
       <Link>Properties\SharedAssemblyInfo.cs</Link>
     </Compile>
@@ -202,6 +199,9 @@
     </Compile>
     <Compile Include="..\Buddy.Nancy45\Serialization\**\*.cs">
       <Link>Serialization\%(RecursiveDir)%(FileName)</Link>
+    </Compile>
+    <Compile Include="..\Buddy.Nancy45\Web\**\*.cs">
+      <Link>Web\%(RecursiveDir)%(FileName)</Link>
     </Compile>
   </ItemGroup>
   <ItemGroup>

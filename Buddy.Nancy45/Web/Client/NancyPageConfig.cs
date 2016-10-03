@@ -2,14 +2,14 @@
 using System.Reflection;
 using System.Text;
 using System.Text.RegularExpressions;
-using Buddy.Web;
 using Nancy;
 using Nancy.Extensions;
 using Nancy.Helpers;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
+using Buddy.Web.Client;
 
-namespace Buddy.Nancy.Page
+namespace Buddy.Nancy.Web.Client
 {
     public class NancyPageConfig : PageConfig
     {
