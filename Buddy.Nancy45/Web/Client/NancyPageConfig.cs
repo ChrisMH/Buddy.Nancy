@@ -11,11 +11,11 @@ using Buddy.Web.Client;
 
 namespace Buddy.Nancy.Web.Client
 {
-    public class NancyPageConfig : PageConfig
+    public class NancyAppSettings : AppSettings
     {
         private static readonly Regex UrlNoPathRegex = new Regex(@"^(http://|https://)[\w\.\:]+");
 
-        public NancyPageConfig(NancyContext context, Assembly versionAssembly)
+        public NancyAppSettings(NancyContext context, Assembly versionAssembly)
         {            
 
             var originUrl = UrlNoPathRegex.Match(context.Request.Url.ToString()).Value;
